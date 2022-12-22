@@ -1,0 +1,14 @@
+[package]
+name = "dualring"
+version = "0.1.0"
+edition = "2021"
+description = """
+Implementation of the DualRing Schnorr-based ring signature construction.
+"""
+
+[dependencies]
+elliptic-curve = "^0.12"
+sha2 = "^0.10"
+
+[[bench]]
+name = "bench"
